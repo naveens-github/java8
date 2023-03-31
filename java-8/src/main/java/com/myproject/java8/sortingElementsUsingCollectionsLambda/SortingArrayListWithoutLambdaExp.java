@@ -1,4 +1,4 @@
-package com.myproject.java8.sortingElementsOfArrayList;
+package com.myproject.java8.sortingElementsUsingCollectionsLambda;
 
 import java.util.ArrayList;
 import java.util.Collections;
