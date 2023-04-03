@@ -5,6 +5,10 @@ public class AnonymousInnerClassUsingLambdaExp {
         Runnable r = ()-> {for (int i=1; i<10; i++) System.out.println("Anonymous inner class block");};
         Thread thread = new Thread(r);
         thread.start();
+        //we can directly use labda expression as a Thread argument.
+        Thread thread2 = new Thread(()-> {for (int i=1; i<10; i++) System.out.println("Anonymous inner class block");});
+
+        //Main thread
         for (int i=1 ; i<10; i++)
             System.out.println("Main method block");
     }
