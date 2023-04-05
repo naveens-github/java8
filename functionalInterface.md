@@ -17,4 +17,13 @@
 
 ### Predicate:
 * To check some conditional checkings. This function will return boolean value - eg: true else false. 
-* It has test() method. 
+* It has one abstract method i.e, test() method. 
+* It has multiple default methods i.e, 1. negate() 2. and() 3. or()
+#### Predicate joining:
+p1: check whether the given number 10.  
+p2: Is even number or not?
+
+Predicate has some default methods. Using those methods we can do some operations.
+1. negate(): we can make negative statement of p1, i.e, check the given number is not 10.
+2. and(): p1.and(p2)
+3. or(): p1.or(p2)
