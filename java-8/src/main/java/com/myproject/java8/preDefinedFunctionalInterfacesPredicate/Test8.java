@@ -25,9 +25,13 @@ public class Test8 {
         ArrayList<Employee2> list = new ArrayList<>();
         populate(list);
         Predicate<Employee2> p = emp -> emp.designation.equals("QB");
-        Predicate<Employee2> p1 = emp -> emp.city.equals("Kansas");
+        System.out.println("ALL QB names");
         display(p, list);
+        Predicate<Employee2> p1 = emp -> emp.city.equals("Kansas");
+        System.out.println("All Employees from Kansas city chiefs");
         display(p1, list);
+        System.out.println("Employees who are QB and in kansas");
+        display(p.and(p1), list);
 
     }
     public static void populate (ArrayList<Employee2> list){
@@ -43,5 +47,6 @@ public class Test8 {
         for(Employee2 emp :list)
             if(p.test(emp))
         System.out.println(emp);
+        System.out.println("**************************");
     }
 }
