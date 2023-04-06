@@ -27,3 +27,13 @@ Predicate has some default methods. Using those methods we can do some operation
 1. negate(): we can make negative statement of p1, i.e, check the given number is not 10.
 2. and(): p1.and(p2)
 3. or(): p1.or(p2)
+
+
+### Function:
+* This is same as the Predicate functionalInterface, but it will return any value. This is not like Predicate(returning True, False). 
+* It has one abstract method i.e, apply() method.    
+* Below is the function representation, where T is an input parameter and R is a return type.  
+Interface Function<T, R> { 
+R apply(T t);   
+} 
+
