@@ -36,4 +36,11 @@ Predicate has some default methods. Using those methods we can do some operation
 Interface Function<T, R> { 
 R apply(T t);   
 } 
+#### Function Chaining:
+* Function functionalInterface has some default methods like: andThen(), compose().
+* Example: f1.andthen(f2) => f1 will be applied followed by f2.    
+* Example2: f1.compose(f2) => f2 will be applied followed by f1.   
+
+* Functional funtionalInterface has identity() method as well. i.e, static method.
+
 
