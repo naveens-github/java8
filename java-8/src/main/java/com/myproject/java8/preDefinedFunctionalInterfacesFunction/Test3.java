@@ -1,3 +1,5 @@
+//Program to find total monthly salary of all employees by using Function.
+
 package com.myproject.java8.preDefinedFunctionalInterfacesFunction;
 
 import java.util.ArrayList;
