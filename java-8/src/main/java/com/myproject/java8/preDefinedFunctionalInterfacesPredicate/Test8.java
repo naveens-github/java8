@@ -25,7 +25,9 @@ public class Test8 {
         ArrayList<Employee2> list = new ArrayList<>();
         populate(list);
         Predicate<Employee2> p = emp -> emp.designation.equals("QB");
+        Predicate<Employee2> p1 = emp -> emp.city.equals("Kansas");
         display(p, list);
+        display(p1, list);
 
     }
     public static void populate (ArrayList<Employee2> list){
