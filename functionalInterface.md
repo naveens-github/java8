@@ -45,7 +45,7 @@ R apply(T t);
 
 ### Consumer:  
 * Consumer accepts the value and won't return anything.  
-* Consumer syntax:
+* Consumer syntax:  
 Interface consumer<T>  
   {  
   void accept(T t);  
