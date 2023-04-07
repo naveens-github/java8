@@ -49,6 +49,14 @@ R apply(T t);
 Interface consumer<T>  
   {  
   void accept(T t);  
-  }
+  } 
   
+#### Consumer Chaining:
+  * For Consumer FunctionalInterface, there is one default method, i.e, andThen();   
+  
+  
+  
+  
+
+      
 
