@@ -55,8 +55,14 @@ Interface consumer<T>
   * For Consumer FunctionalInterface, there is one default method, i.e, andThen();   
   
   
+### Supplier:   
+  * Supplier gets the value, it won't accept any inputs. It is contrast to Consumer FunctionalInterface.   
+  * Supplier syntax:      
+  Interface Supplier<R>    
+  {    
+   R get();    
+  }
+   
   
   
-
-      
-
+  
