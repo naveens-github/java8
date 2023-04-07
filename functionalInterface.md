@@ -8,10 +8,10 @@
 4. Comparable: contains only compareTo() method.
 
 ### Pre-defined Functional Interface 
-1. Predicate
-2. Consumer
-3. Function
-4. Supplier
+1. Predicate  
+2. Function 
+3. Consumer 
+4. Supplier 
 
 * Above Interfaces are in java.util.function package
 
