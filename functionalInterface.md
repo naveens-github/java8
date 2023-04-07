@@ -43,4 +43,12 @@ R apply(T t);
 
 * Functional funtionalInterface has identity() method as well. i.e, static method.
 
+### Consumer:  
+* Consumer accepts the value and won't return anything.  
+* Consumer syntax:
+Interface consumer<T>  
+  {  
+  void accept(T t);  
+  }
+  
 
