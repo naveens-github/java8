@@ -64,5 +64,7 @@ Interface consumer<T>
   }
    
   
-  
+### TwoArgument(Bi)-FunctionalInterface
+  * We can pass two input parameters for three FunctionalInterfaces.   
+  1. BiPredicate, 2. BiFunction, 3. BiConsumer.   
   
