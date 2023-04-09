@@ -2,7 +2,7 @@ package com.myproject.java8.primitiveTypeFunctionalInterfaces;
 
 import java.util.function.IntPredicate;
 
-public class Test1IntPredicate {
+public class Test1IntPredicate {  //we can do same for LongPredicate as well
     public static void main(String[] args) {
         int[] x ={1, 2, 3, 10, 20, 5, 17};
         IntPredicate p =i->i%2==0;
