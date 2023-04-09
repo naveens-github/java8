@@ -7,6 +7,8 @@
 ### Generics - Type parameter
   * For Type parameters primitive types are not allowed, we need to mention Wrapper objects only.  
 
+### 15 Primitive types FunctionalInterfaces for Function:    
+
 1. We have some premitive type FunctionalInterfaces, they are :
 
 1. IntFunction<R>   
