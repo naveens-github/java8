@@ -14,7 +14,7 @@ public class Test1 {
         list.add(30);
         list.add(35);
         list.add(45);
-        //strea().filter()
+        //stream().filter()
         List<Integer> l1= list.stream().filter(i->i%2==0).collect(Collectors.toList());
         //stream().map()
         List<Integer> l2 = list.stream().map(i->i*2).collect(Collectors.toList());
