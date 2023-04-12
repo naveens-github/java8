@@ -12,4 +12,5 @@
 * sorted(Comparator) 
 * min(Comparator) 
 * max(Comparator) 
-* forEach() 
+* forEach()
+* toArray() 
