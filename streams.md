@@ -6,6 +6,8 @@
      * Collection: A group of objects in a single entity. 
      * Streams: used to process the objects from the collection. 
 
+* Streams can used to process the data from collections and also used for group of elements & for arrays.
+
 ##### Most used methods in streams.
 * collect()  
 * count() 
