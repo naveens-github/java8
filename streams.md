@@ -9,7 +9,7 @@
 ##### Most used methods in streams.
 * collect()  
 * count() 
-* sorted() 
-* min() 
-* max() 
+* sorted(Comparator) 
+* min(Comparator) 
+* max(Comparator) 
 * forEach() 
