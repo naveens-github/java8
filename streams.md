@@ -7,6 +7,8 @@
      * Streams: used to process the objects from the collection. 
 
 * Streams can used to process the data from collections and also used for group of elements & for arrays.
+     * For group of values: Stream<Integer> s = Stream.of(9,99,999,9999,99999);    
+                                          s.forEach(System.out::println);
 
 ##### Most used methods in streams.
 * collect()  
@@ -16,3 +18,4 @@
 * max(Comparator) 
 * forEach()
 * toArray() 
+* Stream.of() 
