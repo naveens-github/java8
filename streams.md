@@ -5,3 +5,11 @@
 * what is the difference between Collection and streams?
      * Collection: A group of objects in a single entity. 
      * Streams: used to process the objects from the collection. 
+
+##### Most used methods in streams.
+* collect()  
+* count() 
+* sorted() 
+* min() 
+* max() 
+* forEach() 
