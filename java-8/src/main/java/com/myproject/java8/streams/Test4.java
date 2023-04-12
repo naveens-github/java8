@@ -1,7 +1,7 @@
 package com.myproject.java8.streams;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Comparator;
 
 public class Test4 {
     public static void main(String[] args) {
@@ -15,7 +15,12 @@ public class Test4 {
         list.add(12);
         System.out.println("Before sorting :"+list);
 
-        Integer minValue = list.stream().min((i1,i2)->i1.compareTo(i2)).get();
+        //Find min value using stream().min(Comparator)
+        Integer minValue = list.stream().min(Comparator.naturalOrder()).get();
         System.out.println("minimum value is: "+minValue);
+
+        //Find the max value using stream().max(Comparator)
+        Integer maxValue = list.stream().max(Comparator.naturalOrder()).get();
+        System.out.println("maximum value is: "+maxValue);
     }
 }
